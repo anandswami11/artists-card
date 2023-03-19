@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inspiration&family=Josefin+Sans:ital,wght@1,300&family=Jost:ital,wght@1,300&family=League+Spartan:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: rgb(236, 233, 232);
+}
+.artists{
+    width: 100%;
+    float: left;
+}
+.containor{
+    width: 1100px;
+    margin: auto;
+}
+.nav{
+    width: 100%;
+    float: left;
+    background-color: #222;
+}
+li a{
+    text-decoration: none;
+   
+    color: aliceblue;
+    overflow: hidden;
+}
+
+li{
+    padding: 18px 25px;
+    list-style: none;
+}
+
+.nav-col1{
+float: left;
+padding-top: 12px;
+font-size: 20px;
+
+}
+.nav-col2{
+   float: left;
+}
+.nav-col3{
+    float: left;
+}
+.nav-col4{
+    float: left;
+}
+.nav-col5{
+    float: right;
+}
+.nav-col6{
+    float: right;
+}
+
+.inner-containor{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    line-height: 2;
+}
+.artists-col1{
+    color: rgb(34, 34, 34);
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.artists-col2{
+    color: rgb(100, 100, 100);
+
+}
+.artists-img{
+ margin: 20px 0px;
+ width: 100%;
+ float: left;
+ display: flex;
+ flex-wrap: wrap-reverse;
+ justify-content: space-between;
+}
+.img1{
+width: 23%;
+margin: 20px 0px;
+float: left;
+text-align: center;
+background-color: white;
+}
+.artists-info{
+    padding: 22px 0px 20px 0px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #222;
+    letter-spacing: -0.5px;
+}
+.artists-info-1{
+    line-height: 1.5;
+    padding-bottom: 15px;
+    color: #646464;
+}
+.img1 img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+.containor{
+    width: 90%;
+    margin: auto;
+}
+}
+@media screen and (max-width: 768px){
+
+   .nav{
+    display: none;
+   }
+   .containor{
+    width: 80%;
+}
+   .artists-col1{
+    font-size: 40px;
+    margin: 17px 0px;
+   }
+   .img1{
+    width: 46%;
+   }
+    
+}
+
+@media screen and (max-width: 528px){
+    .containor{
+        width: 88%;
+    }
+    .inner-containor{
+        width: 100%;
+        line-height: 1.5;
+    }
+    .artists-col1{
+        font-weight: normal;
+    }
+    .artists-col1{
+        font-size: 35px;
+    }
+    .img1{
+        width: 100%;
+       }
+}
+
